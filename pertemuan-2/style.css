@@ -1,0 +1,150 @@
+h1 {
+  font-size: 45px;
+  color: rgb(168, 85, 240);
+}
+
+.playground {
+  background: rgb(111, 223, 111);
+  min-height: 50px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#id-selector {
+  background: rgb(210, 120, 120);
+}
+
+li.li-selector {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+/* style buat navbar control/cmd + ?*/
+
+/* margin & padding */
+
+.kotak1 {
+  width: 100px;
+  height: 100px;
+  border: solid black 1px;
+  margin: 30px;
+  padding: 10px 20px 30px 40px;
+}
+
+.kotak-anak {
+  width: 50%;
+  height: 50px;
+  border: solid black 1px;
+}
+
+.kotak2 {
+  width: 100px;
+  height: 100px;
+  border: solid black 1px;
+  margin: 0 0 30px 100px;
+}
+
+.kotak3 {
+  width: 100px;
+  height: 100px;
+  border: solid black 1px;
+}
+
+.vw-selector {
+  background:rgb(111, 223, 111);
+  height: 10vh;
+  width: 50vw;
+}
+
+/* font */
+.p-selector {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  line-height: 20px;
+  text-indent: 50px;
+}
+
+.link-selector {
+  text-decoration: none;
+}
+
+.link-selector:visited {
+  color: red;
+}
+
+.link-selector:hover {
+  color: black;
+  font-size: 40px;
+}
+
+/* format text */
+
+.text-selector-1 {
+  color:rgb(168, 85, 240);
+  text-align: left;
+  text-transform: capitalize;
+  text-indent: 50px;
+}
+
+.kotak {
+  width: 60px;
+  height: 60px;
+  border: solid black 1px;
+}
+
+.pos-1 {
+  position: static;
+}
+
+.pos-2 {
+  position: relative;
+  top: 50px;
+  right: 20px;
+}
+
+.pos-3 {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+}
+
+.border-selector {
+  width: 200px;
+  height: 60px;
+  border: solid #E0E0E0 1px;
+  border-radius: 20px;
+  background: blue;
+}
+
+.border-selector {
+  border: none;
+}
+
+.box-flex-1 {
+  width: 100%;
+  padding: 10px;
+  /* height: 100px; */
+  background-color: aquamarine;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* flex-direction: row;
+  justify-content: end;
+  align-items: center; */
+}
+
+.anak-flex-1 {
+  width: 50px;
+  height: 50px;
+  border: solid black 1px;
+}
+
+.anak-flex-2 {
+  width: 50px;
+  height: 50px;
+  border: solid black 1px;
+  flex-grow: 3;
+}
