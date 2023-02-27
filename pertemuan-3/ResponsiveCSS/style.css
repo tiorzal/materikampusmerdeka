@@ -1,0 +1,40 @@
+/* .box-1 {
+  width: 500px;
+  height: 300px;
+  background: red;
+  margin: 100px auto;
+}
+/* < 786px */
+/* @media(max-width:786px) {
+  .box-1 {
+    width: 100px;
+    height: 100px;
+  }
+} */
+/* mobile */
+.box-1 {
+  width: 100px;
+  height: 100px;
+  background: green;
+  margin: 100px auto;
+  display: none;
+}
+
+.box-2 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  margin: 300px auto;
+}
+ /* > 786 */
+@media(min-width:786px) {
+  .box-1 {
+    display: block;
+    width: 500px;
+    height: 300px;
+  }
+  
+  .box-2 {
+    display: none;
+  }
+}
